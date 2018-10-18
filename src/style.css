@@ -9,5 +9,19 @@
     .hello {
       color: red;
       font-family: 'MyFont';
-      background: url('./icon.png');
+      background: url('./ground.jpg');
+      background-repeat: repeat-x;
+      background-size: 4%;
+      background-position-y: bottom;
+      height: 290px;
+      text-shadow: 2px 1px 1px rgba(150, 196, 199, 1);
+    }
+
+    .background {
+      background: url('./bg.jpg');
+      background-size: 100% auto;
+    }
+
+    .scope {
+      background-color: #3f802c;
     }
